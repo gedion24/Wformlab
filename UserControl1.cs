@@ -16,5 +16,11 @@ namespace WformLab
         {
             InitializeComponent();
         }
+
+        
+        private void titlelbl_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
