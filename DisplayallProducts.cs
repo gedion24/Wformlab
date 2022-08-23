@@ -16,5 +16,10 @@ namespace WformLab
         {
             InitializeComponent();
         }
+
+        private void DisplayallProducts_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }

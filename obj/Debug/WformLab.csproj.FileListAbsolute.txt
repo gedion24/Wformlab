@@ -11,7 +11,6 @@ C:\Users\Gedi G\Desktop\4th year\3rd term\c# class\Lab\WformLab\WformLab\obj\Deb
 C:\Users\Gedi G\Desktop\4th year\3rd term\c# class\Lab\WformLab\WformLab\obj\Debug\WformLab.Login.resources
 C:\Users\Gedi G\Desktop\4th year\3rd term\c# class\Lab\WformLab\WformLab\obj\Debug\WformLab.Inventory.resources
 C:\Users\Gedi G\Desktop\4th year\3rd term\c# class\Lab\WformLab\WformLab\obj\Debug\WformLab.loginpage.resources
-C:\Users\Gedi G\Desktop\4th year\3rd term\c# class\Lab\WformLab\WformLab\obj\Debug\WformLab.csproj.SuggestedBindingRedirects.cache
 C:\Users\Gedi G\Desktop\4th year\3rd term\c# class\Lab\WformLab\WformLab\obj\Debug\WformLab.mainhome.resources
 C:\Users\Gedi G\Desktop\4th year\3rd term\c# class\Lab\WformLab\WformLab\obj\Debug\WformLab.DisplayallProducts.resources
 C:\Users\Gedi G\Desktop\4th year\3rd term\c# class\Lab\WformLab\WformLab\bin\Debug\AutoMapper.dll
@@ -29,3 +28,4 @@ C:\Users\Gedi G\Desktop\4th year\3rd term\c# class\Lab\WformLab\WformLab\bin\Deb
 C:\Users\Gedi G\Desktop\4th year\3rd term\c# class\Lab\WformLab\WformLab\obj\Debug\WformLab.RegistrationForm.resources
 C:\Users\Gedi G\Desktop\4th year\3rd term\c# class\Lab\WformLab\WformLab\obj\Debug\WformLab.csproj.CopyComplete
 C:\Users\Gedi G\Desktop\4th year\3rd term\c# class\Lab\WformLab\WformLab\obj\Debug\WformLab.panal.resources
+C:\Users\Gedi G\Desktop\4th year\3rd term\c# class\Lab\WformLab\WformLab\obj\Debug\WformLab.UserControl1.resources

@@ -17,7 +17,7 @@ namespace WformLab.model
         public string price { get; set; }
 
         public bool chbox { get; set; }
-/*
+/*  
         public static Item findone (string name)
         {
             return product.Find(p => p.name == name);
