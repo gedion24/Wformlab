@@ -33,12 +33,14 @@ namespace WformLab
         private void Test_Click(object sender, EventArgs e)
         {
             string src = "Data Source=SENSEI;Initial Catalog=testDB;Integrated Security=True; TrustServerCertificate=True";
-            string Query = "select * From Students where StudentId=1  ";
+            string Query = "Stduntproc";
             try
             {
                 SqlConnection con = new SqlConnection(src);
                 con.Open();
                 SqlCommand com = new SqlCommand(Query, con);
+                com.CommandText = Query;
+                com.CommandType = CommandType.StoredProcedure;
                 var result = com.ExecuteReader();
                 //var rowsaffect = com.ExecuteNonQuery(); //ROws affected
                 //.ExecuteScalar(); Single Element
