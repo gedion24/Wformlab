@@ -46,7 +46,7 @@ namespace WformLab
                 SqlCommand cmd = new SqlCommand(query , conn);
                 conn.Open();
                     int rowsAffected = cmd.ExecuteNonQuery(); // returns rows affected
-                if (rowsAffected > 0)
+                if (rowsAffected > 0) { }
                     //MessageBox.Show("delete Successfully");
 
             }

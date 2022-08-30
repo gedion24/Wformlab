@@ -29,5 +29,36 @@ namespace WformLab
             DBservice DBS = new DBservice();
             
         }
+
+        private void Test_Click(object sender, EventArgs e)
+        {
+            string src = "Data Source=SENSEI;Initial Catalog=testDB;Integrated Security=True; TrustServerCertificate=True";
+            string Query = "select * From Students where StudentId=1  ";
+            try
+            {
+                SqlConnection con = new SqlConnection(src);
+                con.Open();
+                SqlCommand com = new SqlCommand(Query, con);
+                var result = com.ExecuteReader();
+                //var rowsaffect = com.ExecuteNonQuery(); //ROws affected
+                //.ExecuteScalar(); Single Element
+                //MessageBox.Show(rowsaffect.ToString());
+                //SqlDataReader sdr = com.ExecuteReader();
+                int r = 0;
+                while (result.Read())
+                {
+                    TableS.Rows.Add(1);
+                    TableS[0, r].Value = result["StudentName"].ToString();
+                    TableS[1, r].Value = result["StudnentPhone"].ToString();
+                    TableS[2, r].Value = result["StudentId"].ToString();
+                    r++;
+                }
+                con.Close();
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show(ex.Message);
+            }
+        }
     }
 }
