@@ -70,6 +70,13 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="DBconnectiion.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DBconnectiion.Designer.cs">
+      <DependentUpon>DBconnectiion.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DBservice.cs" />
     <Compile Include="DisplayallProducts.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -128,6 +135,9 @@
     <Compile Include="UserControl1.Designer.cs">
       <DependentUpon>UserControl1.cs</DependentUpon>
     </Compile>
+    <EmbeddedResource Include="DBconnectiion.resx">
+      <DependentUpon>DBconnectiion.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="DisplayallProducts.resx">
       <DependentUpon>DisplayallProducts.cs</DependentUpon>
     </EmbeddedResource>

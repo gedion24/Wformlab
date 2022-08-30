@@ -16,7 +16,7 @@ namespace WformLab
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new RegistrationForm());
+            Application.Run(new DBconnectiion());
         } 
     }
 }

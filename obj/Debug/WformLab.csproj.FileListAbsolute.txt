@@ -29,3 +29,5 @@ C:\Users\Gedi G\Desktop\4th year\3rd term\c# class\Lab\WformLab\WformLab\obj\Deb
 C:\Users\Gedi G\Desktop\4th year\3rd term\c# class\Lab\WformLab\WformLab\obj\Debug\WformLab.csproj.CopyComplete
 C:\Users\Gedi G\Desktop\4th year\3rd term\c# class\Lab\WformLab\WformLab\obj\Debug\WformLab.panal.resources
 C:\Users\Gedi G\Desktop\4th year\3rd term\c# class\Lab\WformLab\WformLab\obj\Debug\WformLab.UserControl1.resources
+C:\Users\Gedi G\Desktop\4th year\3rd term\c# class\Lab\WformLab\WformLab\obj\Debug\WformLab.csproj.SuggestedBindingRedirects.cache
+C:\Users\Gedi G\Desktop\4th year\3rd term\c# class\Lab\WformLab\WformLab\obj\Debug\WformLab.DBconnectiion.resources
